@@ -38,10 +38,38 @@
         .photos {
             background-color: #E9E0E4;
         }
-        .roomLounge {
-            margin-top: 30px;
+        .captions {
+            background-color: white;
+            text-align: center;
+            padding-bottom: 100px;
         }
-        
+        .doubleText h1 {
+                /* position:fixed; */
+                margin-top: 25px;
+                color: rgba(160, 233, 242, 0.4);
+                font-size: 80px;
+                z-index: -1;
+        }
+        .doubleText p {
+            margin-left: 75px;
+            position: absolute;
+            font-size: 36px;
+            color: #051A3B;
+            z-index: 10;
+        }
+        .containerCarousels {
+            margin: 0px 50px 0px 50px;
+        }
+        .smallCarousels {
+            margin: 100px 0px;
+        }
+        .roomLounge {
+            margin: 100px 0px;
+        }
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
     </style>
 
   </head>
@@ -82,8 +110,14 @@
         </div>
     </div>
     <div class="photos">
-        <div class="container">
-            <div class="row">
+        <div class="row captions">
+            <div class="col doubleText" id="dtWaves">
+                <h1>An unforgettable experience</h1>
+                <p>An unforgettable experience</p>
+            </div>
+        </div>
+        <div class="containerCarousels">
+            <div class="row smallCarousels">
                 <div class="col-12 col-md-4">
                     <h3>Fine Dining</h3>
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -94,13 +128,13 @@
                         </ol>
                         <div class="carousel-inner" data-bs-interval="7000">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="pic/diningSharks.jpg" alt="First slide" height=250>
+                            <img class="d-block w-100" src="pic/diningSharks.jpg" alt="First slide" width=500 height=350>
                         </div>
                         <div class="carousel-item" data-bs-interval="7000">
-                            <img class="d-block w-100" src="pic/messHall.jpg" alt="Second slide" height=250>
+                            <img class="d-block w-100" src="pic/messHall.jpg" alt="Second slide" width=500 height=350>
                         </div>
                         <div class="carousel-item" data-bs-interval="7000">
-                            <img class="d-block w-100" src="pic/sea-5.jpg" alt="Third slide" height=250>
+                            <img class="d-block w-100" src="pic/sea-5.jpg" alt="Third slide" width=500 height=350>
                         </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
@@ -123,13 +157,13 @@
                         </ol>
                         <div class="carousel-inner" data-bs-interval="5000">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="pic/activitySpace.jpg" alt="First slide" height=250>
+                            <img class="d-block w-100" src="pic/activitySpace.jpg" alt="First slide" height=350>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img class="d-block w-100" src="pic/scuba.jpg" alt="Second slide" height=250>
+                            <img class="d-block w-100" src="pic/scuba.jpg" alt="Second slide" height=350>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img class="d-block w-100" src="pic/spaceWalk.jpg" alt="Third slide" height=250>
+                            <img class="d-block w-100" src="pic/spaceWalk.jpg" alt="Third slide" height=350>
                         </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
@@ -152,13 +186,13 @@
                         </ol>
                         <div class="carousel-inner" data-bs-interval="6000">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="pic/bathroomOcean.jpg" alt="First slide" height=250>
+                            <img class="d-block w-100" src="pic/bathroomOcean.jpg" alt="First slide" height=350>
                         </div>
                         <div class="carousel-item" data-bs-interval="6000">
-                            <img class="d-block w-100" src="pic/starsBathroom.jpg" alt="Second slide" height=250>
+                            <img class="d-block w-100" src="pic/starsBathroom.jpg" alt="Second slide" height=350>
                         </div>
                         <div class="carousel-item" data-bs-interval="6000">
-                            <img class="d-block w-100" src="pic/oceanBath.jpg" alt="Third slide" height=250>
+                            <img class="d-block w-100" src="pic/oceanBath.jpg" alt="Third slide" height=350>
                         </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -172,6 +206,12 @@
                     </div>
                 </div>
             </div>
+            <div class="row captions">
+                <div class="col doubleText" id="dtWaves">
+                    <h1>Visit new depths and new heights</h1>
+                    <p>Visit new depths and new heights</p>
+                </div>
+            </div>
             <div class="row roomLounge">
                 <div class="col-12 col-md-6">
                     <h3>Bedrooms</h3>
@@ -183,13 +223,13 @@
                         </ol>
                         <div class="carousel-inner" data-bs-interval="7000">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="pic/waterRoom.jpg" alt="First slide" height=400>
+                            <img class="d-block w-100" src="pic/waterRoom.jpg" alt="First slide" height=600>
                         </div>
                         <div class="carousel-item" data-bs-interval="7000">
-                            <img class="d-block w-100" src="pic/starsRoom.jpg" alt="Second slide" height=400>
+                            <img class="d-block w-100" src="pic/starsRoom.jpg" alt="Second slide" height=600>
                         </div>
                         <div class="carousel-item" data-bs-interval="7000">
-                            <img class="d-block w-100" src="pic/luxury-underwater-hotels-thumbnail.jpg" alt="Third slide" height=400>
+                            <img class="d-block w-100" src="pic/luxury-underwater-hotels-thumbnail.jpg" alt="Third slide" height=600>
                         </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -212,13 +252,13 @@
                         </ol>
                         <div class="carousel-inner" data-bs-interval="6000">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="pic/Gateway-Foundation4.jpg" alt="First slide" height=400>
+                            <img class="d-block w-100" src="pic/Gateway-Foundation4.jpg" alt="First slide" height=600>
                         </div>
                         <div class="carousel-item" data-bs-interval="6000">
-                            <img class="d-block w-100" src="pic/lovers-deep-submarine-lounge.jpg" alt="Second slide" height=400>
+                            <img class="d-block w-100" src="pic/lovers-deep-submarine-lounge.jpg" alt="Second slide" height=600>
                         </div>
                         <div class="carousel-item" data-bs-interval="6000">
-                            <img class="d-block w-100" src="pic/spaceLounge.jpg" alt="Third slide" height=400>
+                            <img class="d-block w-100" src="pic/spaceLounge.jpg" alt="Third slide" height=600>
                         </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -231,6 +271,12 @@
                         </a>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row captions">
+            <div class="col doubleText" id="dtWaves">
+                <h1>Feel the wealth</h1>
+                <p>Feel the wealth</p>
             </div>
         </div>
     </div>

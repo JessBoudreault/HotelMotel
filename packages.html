@@ -10,15 +10,38 @@
 
     <title>Packages and Prices</title>
     <link rel="stylesheet" href="style.css">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/5230a3cce1.js" crossorigin="anonymous"></script>
 
     <style>
-        .mainPhoto {
-            background: url(pic/roomFish.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
         #bg-Color {
             background-color: #E9E0E4;
+        }
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+        .containerPackages {
+            margin: 0px 50px 0px 50px;
+            padding: 50px 0px 50px 0px;
+        }
+        .prices {
+            text-align: center;
+        }
+        .relative {
+            position:relative;
+            padding-bottom: 50px;
+        }
+        .relative a {
+            color: #051A3B;
+            font-size: 2rem;
+        }
+        button {
+            position: absolute;
+            z-index: 1;
+            top: 80%;
+            left: 30%;
+
         }
     </style>
   </head>
@@ -55,19 +78,25 @@
         <span class="sr-only">Next</span>
         </a>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col">
+    <div class="containerPackages">
+        <div class="row prices">
+            <div class="col col-md-6 col-lg-3 relative">
+                <a href="#"><i class="fas fa-angle-left"></i></a>
                 <img src="pic/luxuryBed.png" alt="oceanBed" height="300">
+                <button>Book Now!</button>
             </div>
-            <div class="col">
+            <div class="col col-md-6 col-lg-3 relative">
                 <img src="pic/luxuryBedSpace.png" alt="starsBed" height="300">
+                <button>Book Now!</button>
             </div>
-            <div class="col">
+            <div class="col col-md-6 col-lg-3 relative">
                 <img src="pic/couplesOcean.png" alt="couplesOcean" height="300">
+                <button>Book Now!</button>
             </div>
-            <div class="col">
+            <div class="col col-md-6 col-lg-3 relative">
                 <img src="pic/couplesStars.png" alt="couplesStars" height="300">
+                <button>Book Now!</button>
+                <a href="#"><i class="fas fa-angle-right"></i></a>
             </div>
         </div>
     </div>
