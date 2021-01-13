@@ -22,10 +22,17 @@
         }
         #formBox {
             background-color: #E9E0E4;
-            margin: 50px;
+            margin-top: 70px;
             padding: 50px;
             opacity: 0.5;
             box-shadow: 3px 4px 7px #31373f;
+        }
+        #emailSection {
+            width: 20rem;
+        }
+        #messageSection {
+            width: 20rem;
+            height: 100px;
         }
         #buttonForm {
             text-align: center;
@@ -46,6 +53,7 @@
             color: #E9E0E4;
             text-align: center;
             text-shadow: 2px 2px 5px #31373f;
+            margin-top: 70px;
         }
     </style>
   </head>
@@ -62,18 +70,25 @@
             </div>
         </div>
         <div class="row">
-            <div class="col"></div>
-            <div class="col">
+            <div class="col-12 col-md-4"></div>
+            <div class="col-6 col-md-4">
                 <form id="formBox">
-                    <div>
-                        <label for="email">Email:</label>
-                        <input type="text" id="email">
+                    <div id="emailSection">
+                        <div>
+                            <label for="email">Email:</label>
+                        </div>
+                        <div>
+                            <input type="text" id="email">
+                        </div>
+                        
                     </div>
-                    <div>
-                        <label for="message">Message:</label>
-                    </div>
-                    <div>
-                        <input type="text" id="message">
+                    <div id="messageSection">
+                        <div>
+                            <label for="message">Message:</label>
+                        </div>
+                        <div>
+                            <input type="text" id="message">
+                        </div>
                     </div>
                     <div id="buttonForm">
                         <button>Submit</button>
@@ -81,19 +96,21 @@
                     
                 </form>
             </div>
-            <nav class="col">
+            <nav class="col-6 col-md-4">
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#packages">Packages</a></li>
-                    <li><a href="#contactUs">Contact Us</a></li>
-                    <li><a href="#aboutUs">About Us</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="stars.html">Stars Hotel</a></li>
+                    <li><a href="ocean.html">Ocean Hotel</a></li>
                 </ul>
             </nav>
         </div>
         <div class="row">
             <div class="col contactInfo">
                 <div>Head Office:</div>
-                <div>253 Mulholland Dr, Twin Peaks</div>
+                <div>253 Mulholland Drive, Twin Peaks</div>
                 <div>Washington, 92391</div>
                 <div>Call toll free at 1-900-860-0911</div>
             </div>
