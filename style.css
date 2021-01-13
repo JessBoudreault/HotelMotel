@@ -1,66 +1,112 @@
 /* header footer css */
+
 body {
     margin: 0;
 }
 
-.header {
-    margin: 0;
-    display: flex;
-    font-size: 22px;
-    font-weight: 400;
-    color: #051A3B;
-    background-color: #F6F6F6;
-    height: 100px;
-
+@media only screen and (max-width: 770px) {
+    .header {
+        margin: 0;
+        display: flex;
+        font-size: 16px;
+        font-weight: 300;
+        color: #051A3B;
+        background-color: #F6F6F6;
+        height: 100px;
+        justify-content: space-between;
+    }
+    .headName {
+        font-size: 32px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .headMoto {
+        position: absolute;
+        top: 70px;
+        right: 10px;
+    }
+    .footer {
+        display: flex;
+        bottom: 0px;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        color: #EFDAE3;
+        background-color: #051A3B;
+        height: 100px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footerText {
+        margin-right: 10px;
+        text-align: right;
+    }
+    .footerText a {
+        color: #EFDAE3;
+        text-decoration: none;
+    }
+    .footerText a:hover {
+        color: #EFDAE3;
+        text-decoration: underline;
+    }
 }
 
-.headMoto {
-    position: absolute;
-    top: 40px;
-    right: 40px;
+@media only screen and (min-width: 770px) {
+    .header {
+        margin: 0;
+        display: flex;
+        font-size: 22px;
+        font-weight: 400;
+        color: #051A3B;
+        background-color: #F6F6F6;
+        height: 100px;
+    }
+    .headMoto {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    .footer {
+        display: flex;
+        bottom: 0px;
+        width: 100%;
+        font-size: 22px;
+        font-weight: 400;
+        color: #EFDAE3;
+        background-color: #051A3B;
+        height: 100px;
+        justify-content: space-between;
+    }
+    .footerText {
+        margin: 0;
+        bottom: 10px;
+        margin-right: 40px;
+        text-align: right;
+    }
+    .footerText a {
+        color: #EFDAE3;
+        text-decoration: none;
+    }
+    .footerText a:hover {
+        color: #EFDAE3;
+        text-decoration: underline;
+    }
 }
 
-.footer {
-    display: flex;
-    bottom: 0px;
-    width: 100%;
-    font-size: 22px;
-    font-weight: 400;
-    color: #EFDAE3;
-    background-color: #051A3B;
-    height: 100px;
-    justify-content: space-between;
-}
 
-.footerText {
-    margin: 0;
-    bottom: 10px;
-    margin-right: 40px;
-    text-align: right;
-}
-
-.footerText a {
-    color: #EFDAE3;
-    text-decoration: none;
-}
-
-.footerText a:hover {
-    color: #EFDAE3;
-    text-decoration: underline;
-}
+/* header footer css ENDS here */
 
 button {
     background-color: rgba(239, 218, 227, 0.4);
-    border: 1px solid  rgba(239, 218, 227, 0.2);
+    border: 1px solid rgba(239, 218, 227, 0.2);
     color: #051A3B;
     font-size: 30px;
     font-weight: bold;
-    box-shadow: 4px 5px rgba(0,0,0.20,0.20);
+    box-shadow: 4px 5px rgba(0, 0, 0.20, 0.20);
 }
 
-button:hover{
+button:hover {
     background-color: rgba(5, 26, 59, 0.4);
     border: 2px solid #051A3B;
 }
-
-/* header footer css ENDS here */
