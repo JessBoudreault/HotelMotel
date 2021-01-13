@@ -1,0 +1,13 @@
+Colour Scheme: Supernova colours (blues, magenta, purples)
+
+Fonts: Lobster (fancy) Open Sans Condensed (straight)
+       Header/Footer:
+       Body: 
+
+Design for other pages:
+                 About Us - Paragraph, slide show, and article links (Somayeh)
+                 Contact Us - Address, phone, form (Jess)
+                 Packages - (Jess)
+                 Home - (Somayeh)
+                 Stars - (Raisa)
+                 Ocean -  (Raisa)
