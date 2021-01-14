@@ -33,6 +33,11 @@
             margin-top: 100px;
             padding: 20px;
             box-shadow: 3px 4px 7px #31373f;
+            width: 40rem;
+        }
+        .formCol {
+            display: flex;
+            justify-content: center;
         }
         label {
             font-size: 1.7rem;
@@ -44,10 +49,6 @@
             width: 20rem;
             height: 100px;
         }*/
-        #buttonForm {
-            text-align: center;
-            margin-top: 20px;
-        }
         .menuDesk a {
             background-color: rgba(239, 218, 227, 0.466);
             color: #051A3B;
@@ -104,9 +105,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-4"></div>
-            <div class="col-6 col-md-4">
-                <form id="formBox">
+            <div class="col formCol">
+                <form id="formBox" class="form">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
