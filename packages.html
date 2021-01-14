@@ -63,20 +63,24 @@
             left: 30%;
 
         }
-        .doubleText {
-            min-height: 350px;
-            display: flex;
-            align-items: center;
-            color: #051A3B;
-            background-color: rgba(239, 218, 227, 0.25);
-            justify-content: center;
-        }
-        h6 {
-            color: rgba(239, 218, 227, 0.4);
+        .doubleText h6 {
+            /* position:fixed; */
+            margin-top: 25px;
+            color: rgba(160, 233, 242, 0.4);
             font-size: 80px;
+            z-index: -1;
+        }
+        .doubleText p {
+            margin-left: 75px;
+            position: absolute;
+            font-size: 36px;
+            color: #051A3B;
+            z-index: 10;
         }
         .extraText {
             background-color: white;
+            text-align: center;
+            padding-bottom: 100px;
         }
 
     </style>
