@@ -27,63 +27,53 @@
             .waveBack p {
                 margin-left: 20px;
             }
-        }
-        
-        .milerWave {
-            background-image: url("pic/oceanMillerWave4.jpg");
-            min-height: 850px;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        button {
-            margin: 50px;
-        }
-        
-        .doubleText {
-            min-height: 100px;
-            display: flex;
-            align-items: center;
-            color: #051A3B;
-            background-color: rgba(239, 218, 227, 0.25);
-            justify-content: center;
-        }
-        
-        .doubleText h1 {
-            /* position:fixed; */
-            color: rgba(160, 233, 242, 0.4);
-            font-size: 26px;
-            z-index: -1;
-        }
-        
-        .doubleText p {
-            position: absolute;
-            font-size: 14px;
-            color: #051A3B;
-            z-index: 10;
-        }
-        
-        #dtView h1 {
-            font-size: 18px;
-        }
-        
-        #dtWealth {
-            display: flex;
-            justify-content: flex-end;
-        }
-        
-        #dtWealth h1 {
-            margin-right: 10px;
-        }
-        
-        #dtWealth p {
-            margin-right: 20px;
-        }
-        
-        .oceanRooms {
-            display: none;
+            .milerWave {
+                background-image: url("pic/oceanMillerWave4.jpg");
+                min-height: 850px;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            button {
+                margin: 50px;
+            }
+            .doubleText {
+                min-height: 100px;
+                display: flex;
+                align-items: center;
+                color: #051A3B;
+                background-color: rgba(239, 218, 227, 0.25);
+                justify-content: center;
+            }
+            .doubleText h1 {
+                /* position:fixed; */
+                color: rgba(160, 233, 242, 0.4);
+                font-size: 26px;
+                z-index: -1;
+            }
+            .doubleText p {
+                position: absolute;
+                font-size: 14px;
+                color: #051A3B;
+                z-index: 10;
+            }
+            #dtView h1 {
+                font-size: 18px;
+            }
+            #dtWealth {
+                display: flex;
+                justify-content: flex-end;
+            }
+            #dtWealth h1 {
+                margin-right: 10px;
+            }
+            #dtWealth p {
+                margin-right: 20px;
+            }
+            .oceanRooms {
+                display: none;
+            }
         }
         
         @media only screen and (min-width: 770px) {
@@ -242,9 +232,8 @@
     <div class="waveBack">
         <div class="waveBackColor">
             <div class="waveBackText">
-                <p>The first and only hotel on planet ‘Miler’!</br>
-                    Experience the power of water</p>
-                <a href="packages.html"><button type="button">Packages</button></a>
+                <p>The first and only hotel on planet ‘Miler’!<br> Experience the power of water</p>
+                <button type="button" onclick="location.href='packages.html';">Packages</button>
             </div>
         </div>
     </div>
@@ -254,7 +243,7 @@
         <p>Find the suite of your dream</p>
     </div>
     <div class="roomCarousel">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -332,8 +321,8 @@
     </div>
     <div class="footer">
         <img src="pic/logoBottom0.2.jpg" alt="logoDark" width="100" height="100">
-        <p class="footerText"><a href="contactUs.html">Membership policy & Conditions</a></br>
-            <a href="contactUs.html"> Contact</a></br>
+        <p class="footerText"><a href="contactUs.html">Membership policy & Conditions</a><br>
+            <a href="contactUs.html"> Contact</a><br>
             <a href="contactUs.html">Legal</a>
         </p>
     </div>
