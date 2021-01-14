@@ -1,7 +1,19 @@
 /* header footer css */
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(PT_Sans_Caption\PTSansCaption-Regular.ttf);
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(PT_Sans_Caption\PTSansCaption-Regular.ttf);
+    font-weight: bold;
+}
+
 body {
     margin: 0;
+    font-family: myFirstFont;
 }
 
 @media only screen and (max-width: 770px) {
@@ -50,6 +62,55 @@ body {
         color: #EFDAE3;
         text-decoration: underline;
     }
+    /* menu starts here */
+    .menuBurger {
+        position: absolute;
+        right: 40px;
+        top: 130px;
+        z-index: 1;
+        color: #EFDAE3;
+    }
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        background-color: rgb(5, 26, 59);
+        background-color: rgba(5, 26, 59, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .overlay a:hover,
+    .overlay a:focus {
+        color: #f1f1f1;
+    }
+    .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    }
+    .menuDesk {
+        display: none;
+    }
+    /* menu ends here */
 }
 
 @media only screen and (min-width: 770px) {
@@ -92,6 +153,36 @@ body {
         color: #EFDAE3;
         text-decoration: underline;
     }
+    /* menu */
+    .menuDesk {
+        position: absolute;
+        width: 208px;
+        right: 40px;
+        top: 140px;
+        z-index: 1;
+    }
+    .menuDesk a {
+        background-color: rgba(239, 218, 227, 0.20);
+        color: #051A3B;
+        display: block;
+        text-decoration: none;
+        margin: 0 0 8px 0;
+        text-align: center;
+        font-size: 16px;
+        padding: 11px 0 13px 0;
+        width: 208px;
+    }
+    .menuDesk a:hover {
+        background-color: #051A3B;
+        color: #EFDAE3;
+    }
+    .overlay {
+        display: none;
+    }
+    .menuBurger {
+        display: none;
+    }
+    /* ends here */
 }
 
 
