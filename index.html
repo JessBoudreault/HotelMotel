@@ -24,16 +24,17 @@
         p {
             margin-right: 40px;
         }
-        ul {
-            list-style-type: none;
-            /*padding: 50px 100px;*/
-        }
-        li a{
-            display: block;
-            text-decoration: none;
-            text-align: right;
-            color: #E9E0E4;
-        }
+        .menuDesk a {
+        background-color: rgba(239, 218, 227, 0.507);
+        color: #051A3B;
+        display: block;
+        text-decoration: none;
+        margin: 0 0 8px 0;
+        text-align: center;
+        font-size: 16px;
+        padding: 11px 0 13px 0;
+        width: 208px;
+    }
         .hotelButton {
             margin-bottom: 100px;
         }
@@ -83,6 +84,27 @@
         <p class = "headMoto">The impossible made possible</p>
     </header>
     <div class="introMain">
+        <nav class="col menuDesk">
+            <a href="index.html">Home</a>
+            <a href="ocean.html">Ocean Hotel</a>
+            <a href="stars.html">Stars Hotel</a>
+            <a href="packages.html">Packages</a>
+            <a href="contactUs.html">Contact Us</a>
+            <a href="aboutUs.html">About Us</a>
+        </nav>
+
+        <nav id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="ocean.html">Ocean Hotel</a>
+                <a href="stars.html">Stars Hotel</a>
+                <a href="packages.html">Packages</a>
+                <a href="contactUs.html">Contact Us</a>
+                <a href="aboutUs.html">About Us</a>
+            </div>
+        </nav>
+        <span class="menuBurger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
         <div class="container">
             <div class="row descNav">
                 <div class="col">
@@ -92,27 +114,6 @@
                     our underwater hotel on the uninhabitable planet “Miller” with kilometer-long waves
                     that can be observed from your room.</p>
                 </div>
-                <nav class="col menuDesk">
-                    <a href="index.html">Home</a>
-                    <a href="ocean.html">Ocean Hotel</a>
-                    <a href="stars.html">Stars Hotel</a>
-                    <a href="packages.html">Packages</a>
-                    <a href="contactUs.html">Contact Us</a>
-                    <a href="aboutUs.html">About Us</a>
-                </nav>
-
-                <nav id="myNav" class="overlay">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <div class="overlay-content">
-                        <a href="index.html">Home</a>
-                        <a href="ocean.html">Ocean Hotel</a>
-                        <a href="stars.html">Stars Hotel</a>
-                        <a href="packages.html">Packages</a>
-                        <a href="contactUs.html">Contact Us</a>
-                        <a href="aboutUs.html">About Us</a>
-                    </div>
-                </nav>
-                <span class="menuBurger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
             </div>
             <div class="row">
                 <div class="col-12 col-sm-6 d-flex justify-content-center">

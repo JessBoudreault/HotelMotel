@@ -48,16 +48,16 @@
             text-align: center;
             margin-top: 20px;
         }
-        ul {
-            list-style-type: none;
-            font-size: 1.5rem;
-        }
-        li a{
+        .menuDesk a {
+            background-color: rgba(239, 218, 227, 0.466);
+            color: #051A3B;
             display: block;
             text-decoration: none;
-            text-align: right;
-            color: #E9E0E4;
-            text-shadow: 2px 2px 5px #31373f;
+            margin: 0 0 8px 0;
+            text-align: center;
+            font-size: 16px;
+            padding: 11px 0 13px 0;
+            width: 208px;
         }
         .contactInfo {
             color: #E9E0E4;
@@ -76,6 +76,27 @@
         <p class = "headMoto">The impossible made possible</p>
     </header>
     
+    <nav class="col-6 col-md-4 menuDesk">
+        <a href="index.html">Home</a>
+        <a href="ocean.html">Ocean Hotel</a>
+        <a href="stars.html">Stars Hotel</a>
+        <a href="packages.html">Packages</a>
+        <a href="contactUs.html">Contact Us</a>
+        <a href="aboutUs.html">About Us</a>
+    </nav>
+
+    <nav id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="ocean.html">Ocean Hotel</a>
+            <a href="stars.html">Stars Hotel</a>
+            <a href="packages.html">Packages</a>
+            <a href="contactUs.html">Contact Us</a>
+            <a href="aboutUs.html">About Us</a>
+        </div>
+    </nav>
+    <span class="menuBurger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     <div class="containerContact">
         <div class="row contactRow">
             <div class="col">
@@ -100,27 +121,6 @@
                     
                 </form>
             </div>
-            <nav class="col-6 col-md-4 menuDesk">
-                <a href="index.html">Home</a>
-                <a href="ocean.html">Ocean Hotel</a>
-                <a href="stars.html">Stars Hotel</a>
-                <a href="packages.html">Packages</a>
-                <a href="contactUs.html">Contact Us</a>
-                <a href="aboutUs.html">About Us</a>
-            </nav>
-
-            <nav id="myNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="overlay-content">
-                    <a href="index.html">Home</a>
-                    <a href="ocean.html">Ocean Hotel</a>
-                    <a href="stars.html">Stars Hotel</a>
-                    <a href="packages.html">Packages</a>
-                    <a href="contactUs.html">Contact Us</a>
-                    <a href="aboutUs.html">About Us</a>
-                </div>
-            </nav>
-            <span class="menuBurger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
         </div>
         <div class="row">
             <div class="col contactInfo">
