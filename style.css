@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: myFirstFont;
-    src: url(PT_Sans_Caption\PTSansCaption-Regular.ttf);
+    src: url(PT_Sans_Caption/PTSansCaption-Regular.ttf);
 }
 
 @font-face {
     font-family: myFirstFont;
-    src: url(PT_Sans_Caption\PTSansCaption-Regular.ttf);
+    src: url(PT_Sans_Caption/PTSansCaption-Bold.ttf);
     font-weight: bold;
 }
 
