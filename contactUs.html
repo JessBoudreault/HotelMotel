@@ -24,6 +24,7 @@
             background: url(pic/waterFromSpace.jpg);
             background-size: cover;
             background-repeat: no-repeat;
+            background-attachment: fixed;
         }
         .contactRow {
             margin-top: 30px;
@@ -67,6 +68,26 @@
             font-size: 1.6rem;
             margin-top: 100px;
             margin-bottom: 100px;
+        }
+        .doubleText {
+            min-height: 350px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            color: #051A3B;
+            justify-content: center;
+        }
+        .doubleText h6 {
+            /* position:fixed; */
+            color: rgba(239, 218, 227, 0.4);
+            font-size: 80px;
+            z-index: 1;
+        }
+        .doubleText p {
+            position: absolute;
+            font-size: 36px;
+            color: #051A3B;
+            z-index: 10;
         }
     </style>
   </head>
@@ -131,12 +152,18 @@
             </div>
         </div>
     </div>
+    <div class="row captions">
+        <div class="col doubleText" id="dtWaves">
+            <h6>Feel the wealth</h6>
+            <p>Feel the wealth</p>
+        </div>
+    </div>
     <footer class = "footer">
         <img src="pic/logoBottom0.2.jpg" alt="logoDark" width="100" height="100">
         <p class = "footerText"><a href= "contactUs.html">Membership policy & Conditions</a></br>
             <a href= "contactUs.html"> Contact</a></br>
             <a href= "contactUs.html">Legal</a></p>
-        </footer>
+    </footer>
 
 
 
